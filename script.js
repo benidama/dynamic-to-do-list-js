@@ -27,7 +27,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 function addTask() {
-  const taskText = taskInput.ariaValueMax.trim();
+  const taskText = taskInput.value.trim();
   if (taskText === "") {
     alert("enter a task");
   } else {
